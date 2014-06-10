@@ -1,0 +1,3 @@
+The hnet monitoring tool is a LuCI module that enables interfacing with the hnetd daemon.
+It provides a graphical interface for displaying the network state based on hnetd HNCP dump.
+
