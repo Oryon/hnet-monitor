@@ -1,0 +1,87 @@
+<%+header%>
+<h1><%:HNCP Monitoring Tool%></h1>
+<div>
+<div style="height:200px; width:auto; border:solid; padding:5px; ">
+  <div style="float:left; width: 30%;">
+    <label for="source">Dump Source: </label>
+      <select name="source" id="source">
+        <option value="ubus">ubus</option>
+        <option value="uri">uri</option>
+      </select><br/>
+    
+    <label for="uri" id="uril">URI: </label><input name="uri" id="uri" value="<% write (resource) %>/examples/dump1.json" size="40"/><br/>
+    <label for="update">Auto-update:</label><input name="update" type="checkbox" id="update"/><br/><br/>
+    <input name="load" id="load" type="button" value="Load"/>
+  </div>
+  <div style="float:left; width: 60%; height:100%">
+    <textarea name="display" id="display" style="width: 100%; height: inherit;" readonly="readonly"></textarea>
+  </div>
+</div>
+
+<div style="height: 500px; border: solid">
+	<div id="hncpmonitor" style="width: 100%; height: 100%;"></div>
+</div>
+</div>
+<script type="text/javascript" src="<% write (resource) %>/vis.js"></script>
+<script type="text/javascript" src="<% write (resource) %>/hnet-monitor.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+	var graph;
+	var update_timer = null;
+	
+	function load() {
+		var httpRequest = new XMLHttpRequest();
+		httpRequest.onreadystatechange = function() {
+			if (httpRequest.readyState === 4) {
+				if (httpRequest.status === 200) {
+					hncp = JSON.parse(httpRequest.responseText);
+					graph.update(hncp);
+				}
+			}
+		};
+		var src = "<% write (controller) %>/admin/status/hncp-dump";
+		if(document.getElementById("source").value == "uri") {
+			src = document.getElementById("uri").value;
+		}
+		
+		httpRequest.open('GET', src);
+		httpRequest.send();
+	}
+	
+	function display(s) {
+		document.getElementById("display").value = s;
+	}
+	
+	function autoupdate() {
+		var check = document.getElementById("update");
+		if(check.checked && !update_timer) {
+			load();
+			update_timer = setInterval(function() {load()}, 1000);
+		} else if(!check.checked && update_timer) {
+			clearInterval(update_timer);
+			update_timer = null;
+		}
+	}
+
+	function changesource() {
+		if(document.getElementById("source").value == "uri") {
+			document.getElementById("uri").type = "text";
+			document.getElementById("uril").style.display = 'inline';
+		} else {
+			document.getElementById("uri").type = "hidden";
+			document.getElementById("uril").style.display = 'none';
+		}
+	}
+	
+	graph = new hnet.Monitor(document.getElementById('hncpmonitor'));
+	graph.displayCallback = display;
+	document.getElementById('update').onclick = autoupdate;
+	document.getElementById('load').onclick = load;
+	document.getElementById('source').onchange = changesource;
+	autoupdate();
+	changesource();
+/* ]]> */
+</script>
+<%+footer%>
+
+
