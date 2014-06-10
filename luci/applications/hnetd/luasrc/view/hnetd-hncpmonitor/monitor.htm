@@ -28,15 +28,24 @@
 /* <![CDATA[ */
 	var graph;
 	var update_timer = null;
+	var httpRequest = null;
 	
 	function load() {
-		var httpRequest = new XMLHttpRequest();
+		if(httpRequest) {
+			console.log("Request is already pending");
+			return;
+		}
+		
+		httpRequest = new XMLHttpRequest();
 		httpRequest.onreadystatechange = function() {
 			if (httpRequest.readyState === 4) {
 				if (httpRequest.status === 200) {
 					hncp = JSON.parse(httpRequest.responseText);
 					graph.update(hncp);
+				} else {
+					console.log("Request error: "+httpRequest.status+" "+httpRequest.statusText);
 				}
+				httpRequest = null;
 			}
 		};
 		var src = "<% write (controller) %>/admin/status/hncp-dump";
@@ -44,8 +53,20 @@
 			src = document.getElementById("uri").value;
 		}
 		
+		httpRequest.timeout = 10000;
+		httpRequest.ontimeout = function() {
+				console.log("Request timeout");
+				httpRequest = null;
+			}
 		httpRequest.open('GET', src);
 		httpRequest.send();
+	}
+	
+	function abort() {
+		if(httpRequest) {
+			httpRequest.abort();
+			httpRequest = null;
+		}
 	}
 	
 	function display(s) {
@@ -60,6 +81,7 @@
 		} else if(!check.checked && update_timer) {
 			clearInterval(update_timer);
 			update_timer = null;
+			abort();
 		}
 	}
 
