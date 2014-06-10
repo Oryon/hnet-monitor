@@ -1,0 +1,1268 @@
+{
+	"time": 172113,
+	"node-id": "ce257fe749fcd461d7c0120f68add5ba",
+	"links": {
+		"eth0": 1,
+		"eth1": 2,
+		"eth2": 3
+	},
+	"nodes": {
+		"17743e45a12b5ba253879e358feebd94": {
+			"update": 20,
+			"age": 55446,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir4",
+			"neighbors": [
+				{
+					"node-id": "c82cd0b4882c291b0b3ae63920a63e82",
+					"local-link": 2,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "e8af16a9555ba9fed1abb5bc48a81c22",
+					"local-link": 1,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "eae012eddf3867b9006da5911ab81fc4",
+					"local-link": 3,
+					"neighbor-link": 1
+				}
+			],
+			"prefixes": [
+				
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.46.51",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:c6:f83d:84ff:fe0a:41eb",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.94.45",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:fc:9cd7:30ff:fe2e:65d4",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.213.45",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:e8:6879:cff:fe45:7391",
+					"link-id": 3
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:c6:f83d:84ff:fe0a:41eb",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir4.home."
+				},
+				{
+					"address": "2000:dead:bee0:e8:6879:cff:fe45:7391",
+					"search": false,
+					"browse": false,
+					"domain": "eth2.ir4.home."
+				},
+				{
+					"address": "2000:dead:bee0:fc:9cd7:30ff:fe2e:65d4",
+					"search": false,
+					"browse": false,
+					"domain": "eth1.ir4.home."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"1cceb3ede68c39f38fa2da64895a33c3": {
+			"update": 24,
+			"age": 44646,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir10",
+			"neighbors": [
+				{
+					"node-id": "2f934e8b6efe0c85cb97540fe91c3391",
+					"local-link": 4,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "c82cd0b4882c291b0b3ae63920a63e82",
+					"local-link": 2,
+					"neighbor-link": 4
+				},
+				{
+					"node-id": "eae012eddf3867b9006da5911ab81fc4",
+					"local-link": 1,
+					"neighbor-link": 2
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:21::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				},
+				{
+					"prefix": "10.130.187.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.61.33",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:cc:c401:4dff:fe7c:7e26",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.15.10",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:29:8468:bcff:fe71:203d",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.187.41",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:21:f4e2:fbff:fe4f:63e6",
+					"link-id": 3
+				},
+				{
+					"address": "10.130.22.44",
+					"link-id": 4
+				},
+				{
+					"address": "2000:dead:bee0:91:1042:e1ff:fe07:9fc9",
+					"link-id": 4
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:21:f4e2:fbff:fe4f:63e6",
+					"search": false,
+					"browse": true,
+					"domain": "eth3.ir10.home."
+				},
+				{
+					"address": "2000:dead:bee0:29:8468:bcff:fe71:203d",
+					"search": false,
+					"browse": false,
+					"domain": "eth1.ir10.home."
+				},
+				{
+					"address": "2000:dead:bee0:91:1042:e1ff:fe07:9fc9",
+					"search": false,
+					"browse": false,
+					"domain": "eth2.ir10.home."
+				},
+				{
+					"address": "2000:dead:bee0:cc:c401:4dff:fe7c:7e26",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir10.home."
+				},
+				{
+					"address": "2000:dead:bee0:21:f4e2:fbff:fe4f:63e6",
+					"search": false,
+					"browse": false,
+					"domain": "187.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:21:f4e2:fbff:fe4f:63e6",
+					"search": false,
+					"browse": false,
+					"domain": "1.2.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"2f934e8b6efe0c85cb97540fe91c3391": {
+			"update": 19,
+			"age": 49547,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir7",
+			"neighbors": [
+				{
+					"node-id": "1cceb3ede68c39f38fa2da64895a33c3",
+					"local-link": 2,
+					"neighbor-link": 4
+				},
+				{
+					"node-id": "ce257fe749fcd461d7c0120f68add5ba",
+					"local-link": 1,
+					"neighbor-link": 3
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:91::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.22.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.49.25",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:f3:1890:92ff:fef7:3634",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.22.49",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:91:40d7:3eff:fe14:76e2",
+					"link-id": 2
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:91:40d7:3eff:fe14:76e2",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir7.home."
+				},
+				{
+					"address": "2000:dead:bee0:f3:1890:92ff:fef7:3634",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir7.home."
+				},
+				{
+					"address": "2000:dead:bee0:91:40d7:3eff:fe14:76e2",
+					"search": false,
+					"browse": false,
+					"domain": "22.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:91:40d7:3eff:fe14:76e2",
+					"search": false,
+					"browse": false,
+					"domain": "1.9.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"61f296cb2cb3b94421f4c9f9e0a3ffe2": {
+			"update": 25,
+			"age": 71911,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "cpe",
+			"neighbors": [
+				{
+					"node-id": "8c8d37fb3d19cf962df539df5d825325",
+					"local-link": 1,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "ea5b9dc3dc600ec3e613dc2a4fd2b3e1",
+					"local-link": 1,
+					"neighbor-link": 1
+				}
+			],
+			"prefixes": [
+				
+			],
+			"uplinks": [
+				{
+					"dhcpv6": "0017001020000000000000000000000000000002",
+					"dhcpv4": "0608c0a86401c0a80a64",
+					"delegated": [
+						{
+							"prefix": "2000:dead:bee0::\/56",
+							"valid": 524589,
+							"preferred": 224589
+						},
+						{
+							"prefix": "10.0.0.0\/8",
+							"valid": 531326,
+							"preferred": 231326
+						}
+					]
+				}
+			],
+			"addresses": [
+				{
+					"address": "10.131.68.8",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:18:3c04:acff:fe11:17b5",
+					"link-id": 1
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:18:3c04:acff:fe11:17b5",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.cpe.home."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"8c8d37fb3d19cf962df539df5d825325": {
+			"update": 21,
+			"age": 49566,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir2",
+			"neighbors": [
+				{
+					"node-id": "61f296cb2cb3b94421f4c9f9e0a3ffe2",
+					"local-link": 1,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "e8af16a9555ba9fed1abb5bc48a81c22",
+					"local-link": 2,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "ea5b9dc3dc600ec3e613dc2a4fd2b3e1",
+					"local-link": 1,
+					"neighbor-link": 1
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:18::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "10.131.68.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.131.68.1",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:18:f48d:70ff:fe54:ab76",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.138.22",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:78:84df:e6ff:fe06:1475",
+					"link-id": 2
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:18:f48d:70ff:fe54:ab76",
+					"search": false,
+					"browse": true,
+					"domain": "eth0.ir2.home."
+				},
+				{
+					"address": "2000:dead:bee0:78:84df:e6ff:fe06:1475",
+					"search": false,
+					"browse": false,
+					"domain": "eth1.ir2.home."
+				},
+				{
+					"address": "2000:dead:bee0:18:f48d:70ff:fe54:ab76",
+					"search": false,
+					"browse": false,
+					"domain": "68.131.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:18:f48d:70ff:fe54:ab76",
+					"search": false,
+					"browse": false,
+					"domain": "8.1.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"a076666baf8b806df332299d609bc69c": {
+			"update": 23,
+			"age": 42687,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir5",
+			"neighbors": [
+				{
+					"node-id": "ce257fe749fcd461d7c0120f68add5ba",
+					"local-link": 2,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "ce257fe749fcd461d7c0120f68add5ba",
+					"local-link": 3,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "ea5b9dc3dc600ec3e613dc2a4fd2b3e1",
+					"local-link": 1,
+					"neighbor-link": 3
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:12::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				},
+				{
+					"prefix": "10.130.40.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.92.43",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:4:e46e:81ff:feac:1cef",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.110.31",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:1b:709e:a7ff:fe08:407e",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.40.31",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:12:709e:a7ff:fe08:407e",
+					"link-id": 3
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:4:e46e:81ff:feac:1cef",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir5.home."
+				},
+				{
+					"address": "2000:dead:bee0:12:709e:a7ff:fe08:407e",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir5.home."
+				},
+				{
+					"address": "2000:dead:bee0:1b:709e:a7ff:fe08:407e",
+					"search": false,
+					"browse": false,
+					"domain": "eth2.ir5.home."
+				},
+				{
+					"address": "2000:dead:bee0:12:709e:a7ff:fe08:407e",
+					"search": false,
+					"browse": false,
+					"domain": "40.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:12:709e:a7ff:fe08:407e",
+					"search": false,
+					"browse": false,
+					"domain": "2.1.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"c82cd0b4882c291b0b3ae63920a63e82": {
+			"update": 18,
+			"age": 62451,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir9",
+			"neighbors": [
+				{
+					"node-id": "17743e45a12b5ba253879e358feebd94",
+					"local-link": 2,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "1cceb3ede68c39f38fa2da64895a33c3",
+					"local-link": 4,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "ce257fe749fcd461d7c0120f68add5ba",
+					"local-link": 3,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "ea5b9dc3dc600ec3e613dc2a4fd2b3e1",
+					"local-link": 1,
+					"neighbor-link": 4
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:fc::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "2000:dead:bee0:29::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 4
+				},
+				{
+					"prefix": "10.130.94.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.15.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 4
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.100.20",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:6f:1816:b3ff:fef3:dab8",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.94.17",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:fc:1844:8cff:fe62:f2a3",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.121.59",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:4e:f866:21ff:fe39:5f75",
+					"link-id": 3
+				},
+				{
+					"address": "10.130.15.28",
+					"link-id": 4
+				},
+				{
+					"address": "2000:dead:bee0:29:647f:daff:fee6:ecd",
+					"link-id": 4
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:29:647f:daff:fee6:ecd",
+					"search": false,
+					"browse": true,
+					"domain": "eth3.ir9.home."
+				},
+				{
+					"address": "2000:dead:bee0:4e:f866:21ff:fe39:5f75",
+					"search": false,
+					"browse": false,
+					"domain": "eth2.ir9.home."
+				},
+				{
+					"address": "2000:dead:bee0:6f:1816:b3ff:fef3:dab8",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir9.home."
+				},
+				{
+					"address": "2000:dead:bee0:fc:1844:8cff:fe62:f2a3",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir9.home."
+				},
+				{
+					"address": "2000:dead:bee0:29:647f:daff:fee6:ecd",
+					"search": false,
+					"browse": false,
+					"domain": "15.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:fc:1844:8cff:fe62:f2a3",
+					"search": false,
+					"browse": false,
+					"domain": "94.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:29:647f:daff:fee6:ecd",
+					"search": false,
+					"browse": false,
+					"domain": "9.2.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:fc:1844:8cff:fe62:f2a3",
+					"search": false,
+					"browse": false,
+					"domain": "c.f.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"ce257fe749fcd461d7c0120f68add5ba": {
+			"update": 22,
+			"age": 70307,
+			"self": true,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir6",
+			"neighbors": [
+				{
+					"node-id": "2f934e8b6efe0c85cb97540fe91c3391",
+					"local-link": 3,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "a076666baf8b806df332299d609bc69c",
+					"local-link": 1,
+					"neighbor-link": 2
+				},
+				{
+					"node-id": "a076666baf8b806df332299d609bc69c",
+					"local-link": 1,
+					"neighbor-link": 3
+				},
+				{
+					"node-id": "c82cd0b4882c291b0b3ae63920a63e82",
+					"local-link": 2,
+					"neighbor-link": 3
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:1b::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "2000:dead:bee0:4e::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "2000:dead:bee0:f3::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				},
+				{
+					"prefix": "10.130.110.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "10.130.121.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.49.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.110.49",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:1b:6ceb:24ff:fe98:b3d9",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.121.36",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:4e:681d:2eff:fe43:8208",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.49.47",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:f3:8013:67ff:fe7b:d17e",
+					"link-id": 3
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:1b:6ceb:24ff:fe98:b3d9",
+					"search": false,
+					"browse": true,
+					"domain": "eth0.ir6.home."
+				},
+				{
+					"address": "2000:dead:bee0:4e:681d:2eff:fe43:8208",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir6.home."
+				},
+				{
+					"address": "2000:dead:bee0:f3:8013:67ff:fe7b:d17e",
+					"search": false,
+					"browse": true,
+					"domain": "eth2.ir6.home."
+				},
+				{
+					"address": "2000:dead:bee0:f3:8013:67ff:fe7b:d17e",
+					"search": false,
+					"browse": false,
+					"domain": "49.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:1b:6ceb:24ff:fe98:b3d9",
+					"search": false,
+					"browse": false,
+					"domain": "110.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:4e:681d:2eff:fe43:8208",
+					"search": false,
+					"browse": false,
+					"domain": "121.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:1b:6ceb:24ff:fe98:b3d9",
+					"search": false,
+					"browse": false,
+					"domain": "b.1.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:4e:681d:2eff:fe43:8208",
+					"search": false,
+					"browse": false,
+					"domain": "e.4.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:f3:8013:67ff:fe7b:d17e",
+					"search": false,
+					"browse": false,
+					"domain": "3.f.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"e8af16a9555ba9fed1abb5bc48a81c22": {
+			"update": 21,
+			"age": 43252,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir3",
+			"neighbors": [
+				{
+					"node-id": "17743e45a12b5ba253879e358feebd94",
+					"local-link": 2,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "8c8d37fb3d19cf962df539df5d825325",
+					"local-link": 1,
+					"neighbor-link": 2
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:78::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "2000:dead:bee0:c6::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.138.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "10.130.46.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.138.51",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:78:e0de:87ff:fe03:af4f",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.46.61",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:c6:d81f:a1ff:fe52:7b7e",
+					"link-id": 2
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:78:e0de:87ff:fe03:af4f",
+					"search": false,
+					"browse": true,
+					"domain": "eth0.ir3.home."
+				},
+				{
+					"address": "2000:dead:bee0:c6:d81f:a1ff:fe52:7b7e",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir3.home."
+				},
+				{
+					"address": "2000:dead:bee0:c6:d81f:a1ff:fe52:7b7e",
+					"search": false,
+					"browse": false,
+					"domain": "46.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:78:e0de:87ff:fe03:af4f",
+					"search": false,
+					"browse": false,
+					"domain": "138.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:78:e0de:87ff:fe03:af4f",
+					"search": false,
+					"browse": false,
+					"domain": "8.7.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:c6:d81f:a1ff:fe52:7b7e",
+					"search": false,
+					"browse": false,
+					"domain": "6.c.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"ea5b9dc3dc600ec3e613dc2a4fd2b3e1": {
+			"update": 14,
+			"age": 77255,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir1",
+			"neighbors": [
+				{
+					"node-id": "61f296cb2cb3b94421f4c9f9e0a3ffe2",
+					"local-link": 1,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "8c8d37fb3d19cf962df539df5d825325",
+					"local-link": 1,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "a076666baf8b806df332299d609bc69c",
+					"local-link": 3,
+					"neighbor-link": 1
+				},
+				{
+					"node-id": "c82cd0b4882c291b0b3ae63920a63e82",
+					"local-link": 4,
+					"neighbor-link": 1
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:c5::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "2000:dead:bee0:4::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				},
+				{
+					"prefix": "2000:dead:bee0:6f::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 4
+				},
+				{
+					"prefix": "10.130.31.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.92.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 3
+				},
+				{
+					"prefix": "10.130.100.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 4
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.131.68.46",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:18:a86a:6cff:fe10:5c95",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.31.33",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:c5:4835:c9ff:fe97:78a",
+					"link-id": 2
+				},
+				{
+					"address": "10.130.92.12",
+					"link-id": 3
+				},
+				{
+					"address": "2000:dead:bee0:4:a0ce:edff:fe17:9f53",
+					"link-id": 3
+				},
+				{
+					"address": "10.130.100.59",
+					"link-id": 4
+				},
+				{
+					"address": "2000:dead:bee0:6f:e8d0:1dff:fec5:ff21",
+					"link-id": 4
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:4:a0ce:edff:fe17:9f53",
+					"search": false,
+					"browse": true,
+					"domain": "eth2.ir1.home."
+				},
+				{
+					"address": "2000:dead:bee0:18:a86a:6cff:fe10:5c95",
+					"search": false,
+					"browse": false,
+					"domain": "eth0.ir1.home."
+				},
+				{
+					"address": "2000:dead:bee0:6f:e8d0:1dff:fec5:ff21",
+					"search": false,
+					"browse": true,
+					"domain": "eth3.ir1.home."
+				},
+				{
+					"address": "2000:dead:bee0:c5:4835:c9ff:fe97:78a",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir1.home."
+				},
+				{
+					"address": "2000:dead:bee0:4:a0ce:edff:fe17:9f53",
+					"search": false,
+					"browse": false,
+					"domain": "92.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:c5:4835:c9ff:fe97:78a",
+					"search": false,
+					"browse": false,
+					"domain": "31.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:6f:e8d0:1dff:fec5:ff21",
+					"search": false,
+					"browse": false,
+					"domain": "100.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:4:a0ce:edff:fe17:9f53",
+					"search": false,
+					"browse": false,
+					"domain": "4.0.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:6f:e8d0:1dff:fec5:ff21",
+					"search": false,
+					"browse": false,
+					"domain": "f.6.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:c5:4835:c9ff:fe97:78a",
+					"search": false,
+					"browse": false,
+					"domain": "5.c.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		},
+		"eae012eddf3867b9006da5911ab81fc4": {
+			"update": 23,
+			"age": 50249,
+			"version": 1,
+			"user-agent": "hnetd-ea24792",
+			"router-name": "ir8",
+			"neighbors": [
+				{
+					"node-id": "17743e45a12b5ba253879e358feebd94",
+					"local-link": 1,
+					"neighbor-link": 3
+				},
+				{
+					"node-id": "1cceb3ede68c39f38fa2da64895a33c3",
+					"local-link": 2,
+					"neighbor-link": 1
+				}
+			],
+			"prefixes": [
+				{
+					"prefix": "2000:dead:bee0:e8::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "2000:dead:bee0:cc::\/64",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				},
+				{
+					"prefix": "10.130.213.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 1
+				},
+				{
+					"prefix": "10.130.61.0\/24",
+					"authoritative": false,
+					"priority": 8,
+					"link": 2
+				}
+			],
+			"uplinks": [
+				
+			],
+			"addresses": [
+				{
+					"address": "10.130.213.36",
+					"link-id": 1
+				},
+				{
+					"address": "2000:dead:bee0:e8:c8fe:9ff:fe71:1a71",
+					"link-id": 1
+				},
+				{
+					"address": "10.130.61.41",
+					"link-id": 2
+				},
+				{
+					"address": "2000:dead:bee0:cc:c800:c6ff:fe5c:5838",
+					"link-id": 2
+				}
+			],
+			"zones": [
+				{
+					"address": "2000:dead:bee0:cc:c800:c6ff:fe5c:5838",
+					"search": false,
+					"browse": true,
+					"domain": "eth1.ir8.home."
+				},
+				{
+					"address": "2000:dead:bee0:e8:c8fe:9ff:fe71:1a71",
+					"search": false,
+					"browse": true,
+					"domain": "eth0.ir8.home."
+				},
+				{
+					"address": "2000:dead:bee0:cc:c800:c6ff:fe5c:5838",
+					"search": false,
+					"browse": false,
+					"domain": "61.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:e8:c8fe:9ff:fe71:1a71",
+					"search": false,
+					"browse": false,
+					"domain": "213.130.10.in-addr.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:cc:c800:c6ff:fe5c:5838",
+					"search": false,
+					"browse": false,
+					"domain": "c.c.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				},
+				{
+					"address": "2000:dead:bee0:e8:c8fe:9ff:fe71:1a71",
+					"search": false,
+					"browse": false,
+					"domain": "8.e.0.0.0.e.e.b.d.a.e.d.0.0.0.2.ip6.arpa."
+				}
+			],
+			"routing": [
+				{
+					"protocol": 1,
+					"name": "Babel",
+					"preference": 128
+				}
+			]
+		}
+	}
+}
